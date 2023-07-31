@@ -5,6 +5,7 @@ import About from './pages/About';
 import Menu from './pages/Menu';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 function App() {
   return (
 <div className='App'>
@@ -15,7 +16,7 @@ function App() {
 <Route path="/menu" element={<Menu/>}  exact/>
 <Route path="/contact" element={<Contact/>} exact />
 </Routes>
-
+<Footer/>
 
 </div>
   );
