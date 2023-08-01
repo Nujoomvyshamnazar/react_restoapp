@@ -13,6 +13,7 @@ function Footer() {
 <InstagramIcon/>
 <LinkedInIcon/>
 <p>&copy; Kreamkornerrestautaurant.com.</p>
+<p>@Nujoom</p>
     </div>
 </div>
   )
